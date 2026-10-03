@@ -200,7 +200,7 @@ export default function Detail() {
                 <div
                   key={key}
                   style={{
-                    background: '#f8fafc',
+                    background: 'var(--bg-subtle)',
                     border: '1px solid var(--border)',
                     borderRadius: 7,
                     padding: '10px 14px',
@@ -239,12 +239,12 @@ export default function Detail() {
                   marginBottom: 16,
                 }}
               >
-                <div style={{ background: '#f8fafc', padding: '10px 14px', borderRadius: 7, border: '1px solid var(--border)' }}>
+                <div style={{ background: 'var(--bg-subtle)', padding: '10px 14px', borderRadius: 7, border: '1px solid var(--border)' }}>
                   <span style={{ fontSize: 11, color: 'var(--text-muted)', display: 'block' }}>Detected Intent</span>
                   <strong style={{ fontSize: 14 }}>{data.analysis.intent}</strong>
                 </div>
 
-                <div style={{ background: '#f8fafc', padding: '10px 14px', borderRadius: 7, border: '1px solid var(--border)' }}>
+                <div style={{ background: 'var(--bg-subtle)', padding: '10px 14px', borderRadius: 7, border: '1px solid var(--border)' }}>
                   <span style={{ fontSize: 11, color: 'var(--text-muted)', display: 'block' }}>Severity / Risk</span>
                   <span
                     className={`badge badge-${
@@ -260,7 +260,7 @@ export default function Detail() {
                   </span>
                 </div>
 
-                <div style={{ background: '#f8fafc', padding: '10px 14px', borderRadius: 7, border: '1px solid var(--border)' }}>
+                <div style={{ background: 'var(--bg-subtle)', padding: '10px 14px', borderRadius: 7, border: '1px solid var(--border)' }}>
                   <span style={{ fontSize: 11, color: 'var(--text-muted)', display: 'block' }}>Word Count</span>
                   <strong style={{ fontSize: 14 }}>{data.analysis.wordCount} words</strong>
                 </div>

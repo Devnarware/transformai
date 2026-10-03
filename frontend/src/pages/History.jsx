@@ -8,6 +8,7 @@ import {
   ExternalLink,
   Filter,
   Plus,
+  Clock,
 } from 'lucide-react';
 import { api, fmt, toast, LABEL, OUTS } from '../api';
 
@@ -139,6 +140,17 @@ export default function History() {
           <div style={{ padding: 20 }}>
             <div className="skel" />
             <div className="skel" />
+          </div>
+        ) : !list.length ? (
+          <div style={{ textAlign: 'center', padding: '56px 20px', color: 'var(--text-muted)' }}>
+            <Clock size={36} strokeWidth={1.5} style={{ margin: '0 auto 12px', opacity: 0.4 }} />
+            <h4 style={{ margin: '0 0 6px', fontSize: 16, color: 'var(--text-primary)' }}>No transformations yet</h4>
+            <p style={{ margin: '0 auto 18px', fontSize: 13, maxWidth: 380, color: 'var(--text-secondary)' }}>
+              Source content and synthesized deliverables will be recorded here for auditing and export.
+            </p>
+            <Link to="/new" className="pill-btn pill-btn-primary" style={{ textDecoration: 'none' }}>
+              <span>+ Start New Transformation</span>
+            </Link>
           </div>
         ) : !filteredRows.length ? (
           <div style={{ textAlign: 'center', padding: '40px 20px', color: 'var(--text-muted)' }}>
