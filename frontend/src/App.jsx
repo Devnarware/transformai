@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { api } from './api';
-import Sidebar from './components/layout/Sidebar';
-import Topbar from './components/layout/Topbar';
 import Dashboard from './pages/Dashboard';
+import WorkspaceLayout from './components/layout/WorkspaceLayout';
 import NewTransformation from './pages/NewTransformation';
 import History from './pages/History';
 import Detail from './pages/Detail';
@@ -35,23 +34,21 @@ export default function App() {
   }, []);
 
   return (
-    <div className="app-shell">
-      <Sidebar health={health} />
-      <div className="main-area">
-        <Topbar health={health} />
-        <main className="page-content">
-          <Routes>
-            <Route path="/" element={<Navigate to="/dashboard" replace />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/new" element={<NewTransformation />} />
-            <Route path="/history" element={<History />} />
-            <Route path="/history/:id" element={<Detail />} />
-            <Route path="/templates" element={<Templates />} />
-            <Route path="/settings" element={<Settings health={health} />} />
-            <Route path="*" element={<Navigate to="/dashboard" replace />} />
-          </Routes>
-        </main>
-      </div>
-    </div>
+    <Routes>
+      {/* Home / Overview: MiniFolio clean standalone landing without sidebar */}
+      <Route path="/" element={<Dashboard />} />
+      <Route path="/dashboard" element={<Navigate to="/" replace />} />
+
+      {/* Workspace routes with clean minimal topbar */}
+      <Route element={<WorkspaceLayout health={health} />}>
+        <Route path="/new" element={<NewTransformation />} />
+        <Route path="/history" element={<History />} />
+        <Route path="/history/:id" element={<Detail />} />
+        <Route path="/templates" element={<Templates />} />
+        <Route path="/settings" element={<Settings health={health} />} />
+      </Route>
+
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
   );
 }

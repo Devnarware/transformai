@@ -723,6 +723,506 @@
     "intent": "Advisory / awareness",
     "wordCount": 408
    }
+  },
+  {
+   "_id": "79f66e1c-a79e-4586-9a4a-f4c4d0b3e0d4",
+   "createdAt": "2026-10-03T17:33:55.898Z",
+   "sourceTitle": "Increasing Phishing and Social Engineering Threats Against Organizations",
+   "sourceType": "text",
+   "sourceContent": "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter. The campaigns use carefully crafted emails containing links to fraudulent login pages that imitate internal portals and cloud services. Victims who enter credentials are redirected to legitimate pages, which delays detection of the compromise.\n\nAnalysis indicates that attackers rely on urgency, impersonation of senior staff and references to ongoing projects to improve success rates. Several incidents involved credential reuse across systems, allowing lateral access to email accounts and shared document stores. In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.\n\nSocial engineering remains a major attack vector because it targets people rather than technical controls. Organizations without multi-factor authentication were affected far more severely than those with strong authentication in place.\n\nSecurity teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering. Organizations must ensure regular log monitoring and maintain a tested incident response procedure. The overall risk to organizations without these controls is assessed as medium to high.",
+   "sourceMetadata": {},
+   "settings": {
+    "audience": "Senior Management",
+    "tone": "Professional",
+    "language": "English",
+    "detailLevel": "Balanced",
+    "objective": "Inform",
+    "style": "Professional"
+   },
+   "selectedOutputs": [
+    "linkedin",
+    "summary",
+    "presentation",
+    "twitter"
+   ],
+   "status": "completed",
+   "stage": 7,
+   "generatedOutputs": [
+    {
+     "type": "linkedin",
+     "title": "LinkedIn Post",
+     "content": {
+      "hook": "Medium–High risk: Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% ov…",
+      "body": "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations. Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering. The campaigns use carefully crafted emails containing links to fraudulent login pages that imitate internal portals and cloud services.",
+      "keyInsights": [
+       "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incide…",
+       "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+       "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all exter…"
+      ],
+      "callToAction": "Is your organization prepared? Share how your team approaches organizations.",
+      "hashtags": [
+       "#Organizations",
+       "#Incidents",
+       "#Authentication",
+       "#Security"
+      ]
+     },
+     "metadata": {
+      "engine": "Demo / Local Transformation Engine",
+      "validation": {
+       "passed": true,
+       "issues": []
+      },
+      "audience": "Senior Management",
+      "tone": "Professional",
+      "language": "English",
+      "detailLevel": "Balanced",
+      "objective": "Inform",
+      "style": "Professional"
+     },
+     "version": 1,
+     "createdAt": "2026-10-03T17:33:58.006Z"
+    },
+    {
+     "type": "summary",
+     "title": "Executive Summary",
+     "content": {
+      "title": "Executive Summary — Increasing Phishing and Social Engineering Threats Against Organizations",
+      "overview": "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter.",
+      "keyFindings": [
+       "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter.",
+       "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+       "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email f…"
+      ],
+      "importantDevelopments": [
+       "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+       "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email f…"
+      ],
+      "implications": "Risk overview: Medium–High. Priority topics: organizations, incidents, authentication.",
+      "recommendedActions": [
+       "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email f…",
+       "Organizations must ensure regular log monitoring and maintain a tested incident response procedure."
+      ]
+     },
+     "metadata": {
+      "engine": "Demo / Local Transformation Engine",
+      "validation": {
+       "passed": true,
+       "issues": []
+      },
+      "audience": "Senior Management",
+      "tone": "Professional",
+      "language": "English",
+      "detailLevel": "Balanced",
+      "objective": "Inform",
+      "style": "Professional"
+     },
+     "version": 1,
+     "createdAt": "2026-10-03T17:33:58.006Z"
+    },
+    {
+     "type": "presentation",
+     "title": "Presentation",
+     "content": {
+      "slides": [
+       {
+        "title": "Increasing Phishing and Social Engineering Threats Against Organizations",
+        "objective": "Introduce the topic",
+        "points": [
+         "Intent: Advisory / awareness",
+         "Risk level: Medium–High"
+        ],
+        "speakerNotes": "Open with scope and audience."
+       },
+       {
+        "title": "Key Findings",
+        "objective": "Present findings",
+        "points": [
+         "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% ov…",
+         "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+         "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services,…"
+        ],
+        "speakerNotes": "Walk through each finding."
+       },
+       {
+        "title": "Key Themes",
+        "objective": "Show recurring topics",
+        "points": [
+         "organizations",
+         "incidents",
+         "authentication",
+         "security",
+         "teams"
+        ],
+        "speakerNotes": "These terms recur most in the source."
+       },
+       {
+        "title": "Risks and Impact",
+        "objective": "Link findings to impact",
+        "points": [
+         "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+         "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services,…"
+        ],
+        "speakerNotes": "Explain organizational impact."
+       },
+       {
+        "title": "Recommended Actions",
+        "objective": "Agree next steps",
+        "points": [
+         "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email f…",
+         "Organizations must ensure regular log monitoring and maintain a tested incident response procedure."
+        ],
+        "speakerNotes": "Close with ownership and timeline."
+       }
+      ]
+     },
+     "metadata": {
+      "engine": "Demo / Local Transformation Engine",
+      "validation": {
+       "passed": true,
+       "issues": []
+      },
+      "audience": "Senior Management",
+      "tone": "Professional",
+      "language": "English",
+      "detailLevel": "Balanced",
+      "objective": "Inform",
+      "style": "Professional"
+     },
+     "version": 1,
+     "createdAt": "2026-10-03T17:33:58.006Z"
+    },
+    {
+     "type": "twitter",
+     "title": "X / Twitter Thread",
+     "content": {
+      "tweets": [
+       "1/4 Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter.",
+       "2/4 In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+       "3/4 Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering.",
+       "4/4 Key actions: Security teams should implement continuous employee awareness trainin…; Organizations must ensure regular log monitoring and maintain a teste…"
+      ],
+      "hashtags": [
+       "#Organizations",
+       "#Incidents",
+       "#Authentication"
+      ]
+     },
+     "metadata": {
+      "engine": "Demo / Local Transformation Engine",
+      "validation": {
+       "passed": true,
+       "issues": []
+      },
+      "audience": "Senior Management",
+      "tone": "Professional",
+      "language": "English",
+      "detailLevel": "Balanced",
+      "objective": "Inform",
+      "style": "Professional"
+     },
+     "version": 1,
+     "createdAt": "2026-10-03T17:33:58.006Z"
+    }
+   ],
+   "updatedAt": "2026-10-03T17:34:00.115Z",
+   "analysis": {
+    "sentences": [
+     "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter.",
+     "The campaigns use carefully crafted emails containing links to fraudulent login pages that imitate internal portals and cloud services.",
+     "Victims who enter credentials are redirected to legitimate pages, which delays detection of the compromise.",
+     "Analysis indicates that attackers rely on urgency, impersonation of senior staff and references to ongoing projects to improve success rates.",
+     "Several incidents involved credential reuse across systems, allowing lateral access to email accounts and shared document stores.",
+     "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+     "Social engineering remains a major attack vector because it targets people rather than technical controls.",
+     "Organizations without multi-factor authentication were affected far more severely than those with strong authentication in place.",
+     "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering.",
+     "Organizations must ensure regular log monitoring and maintain a tested incident response procedure.",
+     "The overall risk to organizations without these controls is assessed as medium to high."
+    ],
+    "keywords": [
+     "organizations",
+     "incidents",
+     "authentication",
+     "security",
+     "teams",
+     "phishing",
+     "campaigns",
+     "emails"
+    ],
+    "keySentences": [
+     "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter.",
+     "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+     "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering.",
+     "The campaigns use carefully crafted emails containing links to fraudulent login pages that imitate internal portals and cloud services.",
+     "Organizations without multi-factor authentication were affected far more severely than those with strong authentication in place.",
+     "Several incidents involved credential reuse across systems, allowing lateral access to email accounts and shared document stores."
+    ],
+    "severity": "Medium–High",
+    "actions": [
+     "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering.",
+     "Organizations must ensure regular log monitoring and maintain a tested incident response procedure."
+    ],
+    "facts": [
+     "38%",
+     "12 incidents"
+    ],
+    "intent": "Advisory / awareness",
+    "wordCount": 187
+   }
+  },
+  {
+   "_id": "76db3685-2d65-4811-9a3d-9b888910acff",
+   "createdAt": "2026-10-03T18:29:35.260Z",
+   "sourceTitle": "Increasing Phishing and Social Engineering Threats Against Organizations",
+   "sourceType": "text",
+   "sourceContent": "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter. The campaigns use carefully crafted emails containing links to fraudulent login pages that imitate internal portals and cloud services. Victims who enter credentials are redirected to legitimate pages, which delays detection of the compromise.\n\nAnalysis indicates that attackers rely on urgency, impersonation of senior staff and references to ongoing projects to improve success rates. Several incidents involved credential reuse across systems, allowing lateral access to email accounts and shared document stores. In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.\n\nSocial engineering remains a major attack vector because it targets people rather than technical controls. Organizations without multi-factor authentication were affected far more severely than those with strong authentication in place.\n\nSecurity teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering. Organizations must ensure regular log monitoring and maintain a tested incident response procedure. The overall risk to organizations without these controls is assessed as medium to high.",
+   "sourceMetadata": {},
+   "settings": {
+    "audience": "Senior Management",
+    "tone": "Professional",
+    "language": "English",
+    "detailLevel": "Balanced",
+    "objective": "Inform",
+    "style": "Professional"
+   },
+   "selectedOutputs": [
+    "linkedin",
+    "summary",
+    "presentation",
+    "advisory"
+   ],
+   "status": "completed",
+   "stage": 7,
+   "generatedOutputs": [
+    {
+     "type": "linkedin",
+     "title": "LinkedIn Post",
+     "content": {
+      "hook": "Medium–High risk: Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% ov…",
+      "body": "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations. Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering. The campaigns use carefully crafted emails containing links to fraudulent login pages that imitate internal portals and cloud services.",
+      "keyInsights": [
+       "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incide…",
+       "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+       "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all exter…"
+      ],
+      "callToAction": "Is your organization prepared? Share how your team approaches organizations.",
+      "hashtags": [
+       "#Organizations",
+       "#Incidents",
+       "#Authentication",
+       "#Security"
+      ]
+     },
+     "metadata": {
+      "engine": "Demo / Local Transformation Engine",
+      "validation": {
+       "passed": true,
+       "issues": []
+      },
+      "audience": "Senior Management",
+      "tone": "Professional",
+      "language": "English",
+      "detailLevel": "Balanced",
+      "objective": "Inform",
+      "style": "Professional"
+     },
+     "version": 1,
+     "createdAt": "2026-10-03T18:29:37.372Z"
+    },
+    {
+     "type": "summary",
+     "title": "Executive Summary",
+     "content": {
+      "title": "Executive Summary — Increasing Phishing and Social Engineering Threats Against Organizations",
+      "overview": "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter.",
+      "keyFindings": [
+       "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter.",
+       "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+       "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email f…"
+      ],
+      "importantDevelopments": [
+       "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+       "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email f…"
+      ],
+      "implications": "Risk overview: Medium–High. Priority topics: organizations, incidents, authentication.",
+      "recommendedActions": [
+       "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email f…",
+       "Organizations must ensure regular log monitoring and maintain a tested incident response procedure."
+      ]
+     },
+     "metadata": {
+      "engine": "Demo / Local Transformation Engine",
+      "validation": {
+       "passed": true,
+       "issues": []
+      },
+      "audience": "Senior Management",
+      "tone": "Professional",
+      "language": "English",
+      "detailLevel": "Balanced",
+      "objective": "Inform",
+      "style": "Professional"
+     },
+     "version": 1,
+     "createdAt": "2026-10-03T18:29:37.372Z"
+    },
+    {
+     "type": "presentation",
+     "title": "Presentation",
+     "content": {
+      "slides": [
+       {
+        "title": "Increasing Phishing and Social Engineering Threats Against Organizations",
+        "objective": "Introduce the topic",
+        "points": [
+         "Intent: Advisory / awareness",
+         "Risk level: Medium–High"
+        ],
+        "speakerNotes": "Open with scope and audience."
+       },
+       {
+        "title": "Key Findings",
+        "objective": "Present findings",
+        "points": [
+         "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% ov…",
+         "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+         "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services,…"
+        ],
+        "speakerNotes": "Walk through each finding."
+       },
+       {
+        "title": "Key Themes",
+        "objective": "Show recurring topics",
+        "points": [
+         "organizations",
+         "incidents",
+         "authentication",
+         "security",
+         "teams"
+        ],
+        "speakerNotes": "These terms recur most in the source."
+       },
+       {
+        "title": "Risks and Impact",
+        "objective": "Link findings to impact",
+        "points": [
+         "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+         "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services,…"
+        ],
+        "speakerNotes": "Explain organizational impact."
+       },
+       {
+        "title": "Recommended Actions",
+        "objective": "Agree next steps",
+        "points": [
+         "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email f…",
+         "Organizations must ensure regular log monitoring and maintain a tested incident response procedure."
+        ],
+        "speakerNotes": "Close with ownership and timeline."
+       }
+      ]
+     },
+     "metadata": {
+      "engine": "Demo / Local Transformation Engine",
+      "validation": {
+       "passed": true,
+       "issues": []
+      },
+      "audience": "Senior Management",
+      "tone": "Professional",
+      "language": "English",
+      "detailLevel": "Balanced",
+      "objective": "Inform",
+      "style": "Professional"
+     },
+     "version": 1,
+     "createdAt": "2026-10-03T18:29:37.372Z"
+    },
+    {
+     "type": "advisory",
+     "title": "Security Advisory",
+     "content": {
+      "title": "Advisory: Increasing Phishing and Social Engineering Threats Against Organizations",
+      "severity": "Medium–High",
+      "audience": "Senior Management",
+      "overview": "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter.",
+      "threat": [
+       "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+       "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering."
+      ],
+      "indicators": [
+       "38%",
+       "12 incidents"
+      ],
+      "impact": "Assessed risk level is Medium–High. Affected areas: organizations, incidents, authentication, security.",
+      "recommendedActions": [
+       "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email f…",
+       "Organizations must ensure regular log monitoring and maintain a tested incident response procedure."
+      ]
+     },
+     "metadata": {
+      "engine": "Demo / Local Transformation Engine",
+      "validation": {
+       "passed": true,
+       "issues": []
+      },
+      "audience": "Senior Management",
+      "tone": "Professional",
+      "language": "English",
+      "detailLevel": "Balanced",
+      "objective": "Inform",
+      "style": "Professional"
+     },
+     "version": 1,
+     "createdAt": "2026-10-03T18:29:37.381Z"
+    }
+   ],
+   "updatedAt": "2026-10-03T18:29:39.492Z",
+   "analysis": {
+    "sentences": [
+     "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter.",
+     "The campaigns use carefully crafted emails containing links to fraudulent login pages that imitate internal portals and cloud services.",
+     "Victims who enter credentials are redirected to legitimate pages, which delays detection of the compromise.",
+     "Analysis indicates that attackers rely on urgency, impersonation of senior staff and references to ongoing projects to improve success rates.",
+     "Several incidents involved credential reuse across systems, allowing lateral access to email accounts and shared document stores.",
+     "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+     "Social engineering remains a major attack vector because it targets people rather than technical controls.",
+     "Organizations without multi-factor authentication were affected far more severely than those with strong authentication in place.",
+     "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering.",
+     "Organizations must ensure regular log monitoring and maintain a tested incident response procedure.",
+     "The overall risk to organizations without these controls is assessed as medium to high."
+    ],
+    "keywords": [
+     "organizations",
+     "incidents",
+     "authentication",
+     "security",
+     "teams",
+     "phishing",
+     "campaigns",
+     "emails"
+    ],
+    "keySentences": [
+     "Security teams have observed an increase in phishing campaigns targeting organizational employees, with reported incidents rising by 38% over the last quarter.",
+     "In 12 incidents, stolen credentials were used within hours to send further phishing emails to partner organizations.",
+     "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering.",
+     "The campaigns use carefully crafted emails containing links to fraudulent login pages that imitate internal portals and cloud services.",
+     "Organizations without multi-factor authentication were affected far more severely than those with strong authentication in place.",
+     "Several incidents involved credential reuse across systems, allowing lateral access to email accounts and shared document stores."
+    ],
+    "severity": "Medium–High",
+    "actions": [
+     "Security teams should implement continuous employee awareness training, enable multi-factor authentication on all external-facing services, and improve email filtering.",
+     "Organizations must ensure regular log monitoring and maintain a tested incident response procedure."
+    ],
+    "facts": [
+     "38%",
+     "12 incidents"
+    ],
+    "intent": "Advisory / awareness",
+    "wordCount": 187
+   }
   }
  ],
  "templates": [
