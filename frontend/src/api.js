@@ -6,7 +6,15 @@ export const api = {
   upload: f => { const fd = new FormData(); fd.append('file', f); return fetch(BASE + '/api/content/upload', { method: 'POST', body: fd }).then(j); },
   exportOut: async (id, type, format) => { const r = await fetch(`${BASE}/api/transformations/${id}/export`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type, format }) }); if (!r.ok) throw new Error('Export failed'); return r.blob(); },
 };
-export const toast = m => { const d = document.createElement('div'); d.className = 'toast'; d.textContent = m; document.body.append(d); setTimeout(() => d.remove(), 2600); };
+export const toast = m => {
+  const existing = document.querySelector('.toast');
+  if (existing) existing.remove();
+  const d = document.createElement('div');
+  d.className = 'toast';
+  d.innerHTML = `<span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#48bb78;flex-shrink:0;"></span><span>${m}</span>`;
+  document.body.append(d);
+  setTimeout(() => { if (d.parentNode) d.remove(); }, 2800);
+};
 export const download = (b, n) => { const a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = n; a.click(); };
 export const OUTS = [['linkedin', 'LinkedIn Post', 'Professional social post.'], ['twitter', 'X / Twitter', 'Post or numbered thread.'], ['advisory', 'Advisory', 'Findings and recommendations.'], ['summary', 'Executive Summary', 'Briefing for decision-makers.'], ['infographic', 'Infographic', 'Key messages and layout.'], ['presentation', 'Presentation', 'Slides with speaker notes.'], ['video', 'Video Package', 'Script, storyboard, subtitles.']];
 export const LABEL = Object.fromEntries(OUTS.map(o => [o[0], o[1]]));
