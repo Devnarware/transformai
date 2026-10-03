@@ -1,0 +1,13 @@
+import { Router } from 'express';
+import multer from 'multer';
+import * as c from './controllers.js';
+const up = multer({ storage: multer.memoryStorage(), limits: { fileSize: 10 * 1024 * 1024 } });
+const r = Router();
+r.get('/health', c.health); r.get('/sample', c.sample); r.get('/dashboard/stats', c.stats);
+r.post('/content/upload', up.single('file'), c.upload);
+r.post('/transform', c.transform);
+r.get('/transformations', c.list); r.get('/transformations/:id', c.get); r.delete('/transformations/:id', c.remove);
+r.post('/transformations/:id/regenerate', c.regen); r.post('/transformations/:id/export', c.exportOut);
+r.get('/templates', c.tList); r.post('/templates', c.tCreate); r.put('/templates/:id', c.tUpdate); r.delete('/templates/:id', c.tDelete);
+r.get('/settings', c.getSettings); r.put('/settings', c.putSettings);
+export default r;

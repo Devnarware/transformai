@@ -1,0 +1,3 @@
+{"name":"transformai","private":true,"workspaces":["backend","frontend"],
+"scripts":{"dev":"concurrently -n api,web \"npm run backend\" \"npm run frontend\"","backend":"npm run dev -w backend","frontend":"npm run dev -w frontend","ai":"cd ai-service && uvicorn app.main:app --port 8000 --reload","test":"npm test -w backend","build":"npm run build -w frontend"},
+"devDependencies":{"concurrently":"^8.2.2"}}
